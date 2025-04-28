@@ -10,8 +10,8 @@
   <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="css/widgets.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -26,40 +26,14 @@
       opacity: 1 !important;
       font-weight: 700 !important;
     }
-    /* Additional styles to align the two images properly */
-    .flex-row-space-between {
-      display: flex;
-      justify-content: space-between;
-      gap: 20px; /* Adds space between the two images */
-      flex-wrap: wrap; /* So that on small screens they stack */
-    }
-    .flex-column {
-      display: flex;
-      flex-direction: column;
-    }
-    .image {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-    }
-    .max-width-400 {
-      max-width: 400px;
-    }
-    .image-caption {
-      text-align: center;
-      font-size: 14px;
-      margin-top: 8px;
-    }
   </style>
 </head>
 
 <body>
   <div class="menu-container"></div>
-
   <div class="content-container">
     <div class="content">
       <div class="content-table flex-column">
-
         <div class="flex-row">
           <div class="flex-item flex-column">
             <p class="text">
@@ -67,36 +41,33 @@
             </p>
           </div>
         </div>
-
         <!-------------------------------------------------------------------------------------------->
-        <!-- Start: Photo Section -->
-        <div class="flex-column">
-          <h2>Photos</h2>
-          <hr>
+        <!-- Start -->
+<div class="flex-column">
+  <h2>Photos</h2>
+  <hr>
 
-          <div class="flex-row-space-between">
-            <!-- Image 1 -->
-            <div class="flex-item flex-column">
-              <img class="image max-width-400" src="img/Chao_black_01_new_01.png" alt="Image 1">
-              <p class="image-caption">Image</p>
-            </div>
+  <div class="flex-row-space-between">
+    <!-- Image 1 -->
+    <div class="flex-item flex-column">
+      <img class="image max-width-400" src="img/Chao_black_01_new_01.png" alt="Image 1">
+      <p class="image-caption">Image Caption</p>
+    </div>
 
-            <!-- Image 2 -->
-            <div class="flex-item flex-column">
-              <a href="https://github.com/yenchiah/project-website-template" target="_blank">
-                <img class="image max-width-400" src="img/Chao_black_01_new_01.png" alt="Image 2">
-              </a>
-              <p class="image-caption">Image</p>
-            </div>
-          </div>
-        </div>
-        <!-- End: Photo Section -->
-        <!-------------------------------------------------------------------------------------------->
-
-      </div>
+    <!-- Image 2 -->
+    <div class="flex-item flex-column">
+      <a href="https://github.com/yenchiah/project-website-template" target="_blank">
+        <img class="image max-width-400" src="img/Chao_black_01_new_01.png" alt="Image 2">
+      </a>
+      <p class="image-caption">Image Button Caption</p>
     </div>
   </div>
+</div>
+<!-- End -->
 
-</body>
+        
+        <!-------------------------------------------------------------------------------------------->
+      </div>
+  </div>
 
 </html>
